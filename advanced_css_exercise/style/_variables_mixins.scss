@@ -1,0 +1,17 @@
+$backgroundbody :#c3cfe2;
+$backgroundmain: white;
+$backgroundfooter: #686de0;
+
+@mixin borderradius_top {    
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;}
+
+@mixin borderradius-bottom {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+@mixin borderradius_total {
+    border-radius: 20px;
+    
+}
